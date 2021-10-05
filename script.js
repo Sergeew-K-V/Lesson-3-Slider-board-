@@ -17,9 +17,9 @@ downButton.addEventListener('click', () => {
 })
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'ArrowUp' || 'w' || 'W') {
+  if (event.key === 'ArrowUp') {
     changeSlide('up')
-  } else if (event.key === 'ArrowDown' || 's' || 'S') {
+  } else if (event.key === 'ArrowDown') {
     changeSlide('down')
   }
 })
